@@ -1,13 +1,12 @@
 /* Navbar */
 /* Navbar */
 #navbar {
-    grid-area: nav;
+    grid-area: navbar;
     z-index: 6000;
     background-color: #fff;
     box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
     display: flex;
     flex-flow: row wrap;
-    justify-content: flex-start; /* Update to flex-start */
     align-items: center;
     height: 130px;
     padding: 10px;
