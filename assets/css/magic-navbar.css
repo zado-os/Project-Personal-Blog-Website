@@ -1,30 +1,30 @@
 /* Navbar */
 #navbar {
-	grid-area: nav;
-	z-index: 6000;
-	background-color: #fff;
-	box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
-	display: flex;
-	flex-flow: row wrap;
-	width: 100%;
-	height: 130px;
-	padding: 10px;
-}
-
-#trick-nav-flex-logo {
-	display: flex;
-	font-family: "Arial", sans-serif;
-	font-size: 1.2em;
-	color: #333;
-	flex-flow: row nowrap;
-	width: 100%;
-	justify-content: center;
-	align-items: center;
-}
-
-
-/* Logo */
-#trick-logo {
+    grid-area: nav;
+    z-index: 6000;
+    background-color: #fff;
+    box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    padding: 10px;
+  }
+  
+  #trick-nav-flex-logo {
+    display: flex;
+    font-family: "Arial", sans-serif;
+    font-size: 1.2em;
+    color: #333;
+    flex-flow: row nowrap;
+    width: auto; /* Update width to auto */
+    justify-content: flex-start; /* Update to flex-start */
+    align-items: center;
+  }
+  
+  /* Logo */
+  #trick-logo {
     font-size: 1.2em;
     text-align: center;
     margin-left: 0;
@@ -36,12 +36,12 @@
   #trick-nav-ul {
     display: flex;
     flex-flow: row wrap;
-    width: 100%;
+    width: auto; /* Update width to auto */
     justify-content: center;
     align-items: center;
   }
   
-  nav ul {
+  #navbar ul {
     list-style-type: none;
     font-size: 1em;
     margin: 0;
@@ -86,29 +86,20 @@
     }
   
     #trick-nav-flex-logo {
-      display: flex;
-      flex-flow: row wrap;
       width: 40%;
       justify-content: flex-start;
-      align-items: center;
     }
   
     #trick-logo {
-      font-size: 1.2em;
-      text-align: center;
-      margin-left: 0;
       font-weight: 600;
     }
   
     #trick-nav-ul {
-      display: flex;
-      flex-flow: row wrap;
       width: 60%;
       justify-content: flex-end;
-      align-items: center;
     }
   
-    nav ul {
+    #navbar ul {
       list-style-type: none;
       font-size: 1em;
       margin: 0;
