@@ -1,4 +1,5 @@
 /* Navbar */
+/* Navbar */
 #navbar {
     grid-area: nav;
     z-index: 6000;
@@ -6,7 +7,7 @@
     box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start; /* Update to flex-start */
     align-items: center;
     height: 130px;
     padding: 10px;
@@ -78,6 +79,35 @@
   .trick-nav-item > a:visited {
     color: #222;
   }
+  
+  /* Responsive Styles */
+  @media (min-width: 600px) {
+    #navbar {
+      height: 60px;
+    }
+  
+    #trick-nav-flex-logo {
+      width: 40%;
+      justify-content: flex-start;
+    }
+  
+    #trick-logo {
+      font-weight: 600;
+    }
+  
+    #trick-nav-ul {
+      width: 60%;
+      justify-content: flex-end;
+    }
+  
+    #navbar ul {
+      list-style-type: none;
+      font-size: 1em;
+      margin: 0;
+      transition: all 0.3s;
+    }
+  }
+  
   
   /* Responsive Styles */
   @media (min-width: 600px) {
