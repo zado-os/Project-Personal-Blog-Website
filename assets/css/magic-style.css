@@ -1,0 +1,22 @@
+/* imports CSS Files */
+@import "magic-navbar.css";
+@import "magic-layout.css";
+@import "magic-layout.css";
+
+/* Grid Container */
+#trick-grid-container {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 100px 300px 400px 300px 350px 60px;
+	gap: 6px;
+	grid-template-areas:
+		"nav nav"
+		"post-img post-img"
+		"post-blog-1 post-blog-1"
+		"post-img-2 post-img-2"
+		"pots-3 post-blog-2"
+		"ft ft";
+}
+
+
+
