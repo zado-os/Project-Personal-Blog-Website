@@ -5,7 +5,7 @@ nav {
 	box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
 	display: flex;
 	flex-flow: row wrap;
-	width: 100%;
+	width: auto;
 	height: 130px;
 	padding: 10px;
 }
@@ -26,7 +26,7 @@ nav {
 	text-align: center;
 	margin-left: 0;
 	font-weight: 700;
-	color: #00a6ff;
+	color: #812a07;
 }
 
 #nav-ul {
@@ -99,7 +99,7 @@ li {
 	#nav-ul {
 		display: flex;
 		flex-flow: row wrap;
-		width: 60%;
+		width: 80%;
 		justify-content: flex-end;
 		align-items: center;
 	}
