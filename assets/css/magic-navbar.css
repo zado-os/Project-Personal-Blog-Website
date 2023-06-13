@@ -55,16 +55,16 @@ li {
 }
 
 .nav-item > a {
-	color: #222;
+	color: #b44a4a;
 	font-weight: 700;
 	padding: 8px 20px;
 	border-radius: 2px;
 }
 
 .nav-item > a:hover {
-	color: #00a6ff !important;
-	background-color: #000;
-	border: 1px solid #000;
+	color: #ffffff !important;
+	background-color: #b44a4a;
+	border: 1px solid #b44a4a;
 }
 
 .nav-item > a:active {
@@ -74,7 +74,7 @@ li {
 }
 
 .nav-item > a:visited {
-	color: #222;
+	color: #b44a4a;
 }
 
 @media (min-width: 600px) {
