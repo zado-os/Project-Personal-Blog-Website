@@ -79,11 +79,30 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin:auto;
+	margin: 3% 0% 0% 0%;
 	padding: 0;
 	align-items: center;
 }
 
+#post-blog-2 {
+	grid-area: post-blog-2;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
+
+#post-img-2 {
+	grid-area: post-img-2;
+	background-image: url("../images/post-2.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+}
 /* tile styling */
 
 .text-detils {
