@@ -8,7 +8,7 @@ body {
 	font-family: "Montserrat", sans-serif;
 	font-size: 14px;
 	line-height: 1.6;
-	background-color: #fffaf0;
+	background-color: #c7bbc7;
 	color: #222;
 }
 
@@ -138,44 +138,44 @@ blockquote:first-letter {
 
 .btn-primary {
 	background-color: transparent;
-	border: 2px solid #00a6ff;
+	border: 2px solid #ffffff;
 	border-radius: 3px;
-	color: #00a6ff;
+	color: #ffffff;
 	transition: all 0.3s;
 }
 
 .btn-primary:hover {
-	background-color: #00a6ff;
-	border: 2px solid #00a6ff;
+	background-color: #7d035f;
+	border: 2px solid #7d035f;
 	border-radius: 3px;
 	color: #fffaf0;
 	transform: scale(0.9);
 }
 
 .btn-primary:active {
-	color: #00a6ff;
+	background-color: #7d035f;
 	border-radius: 3px;
 	color: #fffaf0;
 	transform: scale(0.9);
 }
 
 .btn-secondary {
-	background-color: #00a6ff;
-	border: 2px solid #00a6ff;
+	background-color: #7d035f;
+	border: 2px solid #7d035f;
 	color: #fffaf0;
 	transition: all 0.3s;
 }
 
 .btn-secondary:hover {
 	background-color: transparent;
-	border: 2px solid #00a6ff;
+	border: 2px solid #7d035f;
 	color: #00a6ff;
 	transform: scale(0.9);
 }
 
 .btn-secondary:active {
 	background-color: transparent;
-	border: 2px solid #00a6ff;
-	color: #00a6ff;
+	border: 2px solid #7d035f;
+	color: #7d035f;
 	transform: scale(0.9);
 }

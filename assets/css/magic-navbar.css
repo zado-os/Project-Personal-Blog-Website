@@ -5,10 +5,10 @@ nav {
 	box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
 	display: flex;
 	flex-flow: row wrap;
-    width: 70% !important; 
+    width: 70% !important;
     height: 130px;
-    margin: auto !important; 
-    padding: 5px !important; 
+    margin: auto !important;
+    padding: 5px !important;
 }
 
 #trick-nav-flex-logo {

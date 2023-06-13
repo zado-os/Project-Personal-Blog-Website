@@ -1,6 +1,6 @@
-@import "layout.css";
-@import "nav.css";
-@import "footer.css";
+@import "./magic-layout.css";
+@import "./magic-navbar.css";
+@import "./magic-footer.css";
 
 /* grid container */
 

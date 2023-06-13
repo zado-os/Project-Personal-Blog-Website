@@ -11,10 +11,10 @@
 	gap: 6px;
 	grid-template-areas:
 		"navbar navbar"
-		"post-img post-img"
-		"post-blog-1 post-blog-1"
-		"post-img-2 post-img-2"
-		"pots-3 post-blog-2"
+		"poster-blog-2 poster-blog-2"
+		"poster-blog-1 poster-blog-1"
+		"poster-blog-3 poster-blog-3"
+		"pots-3 poster-blog-2"
 		"ft ft";
 }
 
@@ -27,8 +27,9 @@
 		gap: 10px;
 		grid-template-areas:
 			"navbar navbar"
-			"post-img post-blog-1"
-			"post-blog-2 post-img-2"
+			"poster-blog-2 poster-blog-1"
+			"poster-blog-3 poster-blog-3"
+
 			"ft ft";
 	}
 }
@@ -41,17 +42,18 @@
 		gap: 10px;
 		grid-template-areas:
 			"navbar navbar"
-			"post-img post-blog-1"
+			"poster-blog-2 poster-blog-1"
+			"poster-blog-3 poster-blog-3"
 			"ft ft";
 	}
 }
 /* content */
 
-#post-img {
-	grid-area: post-img;
+#poster-blog-2 {
+	grid-area: poster-blog-2;
 	width: 71%;
 	height: 100%;
-	background-image: url("https://cdn.bhdw.net/im/coven-champions-league-of-legends-lol-wallpaper-78811_w635.webp");
+	background-image: url("../images/elden-ring-game.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -61,8 +63,25 @@
 	justify-content: center;
 	align-items: center;
 	color: #fffaf0;
+	border-radius: 2%;
 }
 
+#poster-blog-3{
+	grid-area: poster-blog-3;
+	width: 70%;
+	height: 100%;
+	background-image: url("../images/Marvel-movies.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 3% 0% 0% 15%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	color: #fffaf0;
+	border-radius: 2%;
+}
 
 .post {
 	display: flex;
@@ -72,9 +91,9 @@
 	min-height: 160px;
 }
 
-#post-blog-1 {
-	grid-area: post-blog-1;
-	background-image: url("https://cdn.bhdw.net/im/coven-champion-girls-league-of-legends-lol-wallpaper-94205_w635.webp");
+#poster-blog-1 {
+	grid-area: poster-blog-1;
+	background-image: url("../images/anime-one-piece.jpg");
 	width: 70%;
 	height: 100%;
 	background-position: center;
@@ -83,6 +102,16 @@
 	margin: 3% 0% 0% 0%;
 	padding: 0;
 	align-items: center;
+	border-radius: 2%;
+}
+#poster-img-2 {
+	grid-area: poster-img-2;
+	background-image: url("../images/anime-one-piece.jpg");
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -109,7 +138,7 @@
 }
 
 .link:hover {
-	color: #00a6ff;
+	color: #ffea00;
 }
 
 .post-detils {
