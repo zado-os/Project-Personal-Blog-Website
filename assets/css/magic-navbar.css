@@ -1,7 +1,7 @@
 nav {
 	grid-area: nav;
 	z-index: 6000;
-	background: #fff;
+	background: #bbb3b3;
 	box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
 	display: flex;
 	flex-flow: row wrap;
