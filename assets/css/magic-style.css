@@ -42,7 +42,6 @@
 		grid-template-areas:
 			"navbar navbar"
 			"post-img post-blog-1"
-			"post-blog-2 post-img-2"
 			"ft ft";
 	}
 }
@@ -85,28 +84,9 @@
 	align-items: center;
 }
 
-#post-blog-2 {
-	grid-area: post-blog-2;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0;
-	padding: 0;
-}
-
-#post-img-2 {
-	grid-area: post-img-2;
-	background-image: url("../images/post-2.jpg");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin: 0;
-	padding: 0;
-}
 /* tile styling */
 
-.text-summary {
+.text-detils {
 	background-color: rgba(0, 0, 0, 0.5);
 	min-width: 60%;
 	max-width: 500px;
@@ -130,20 +110,20 @@
 	color: #00a6ff;
 }
 
-.post-summary {
+.post-detils {
 	text-align: center;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
+@media (min-width: 500px) and (max-width: 1200px) {
 	.post h4 {
 		font-size: 1.5em;
 	}
 
-	.post .post-summary {
+	.post .post-detils {
 		font-size: 0.8em;
 	}
 
-	.text-summary {
+	.text-detils {
 		padding: 5px 15px;
 		margin: 5px;
 	}
