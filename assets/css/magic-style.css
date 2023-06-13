@@ -4,13 +4,13 @@
 @import "magic-layout.css";
 
 /* Grid Container */
-#grid-container {
+#magic-grid-container {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 100px 300px 400px 300px 350px 60px;
 	gap: 6px;
 	grid-template-areas:
-		"nav nav"
+		"navbar navbar"
 		"post-img post-img"
 		"post-blog-1 post-blog-1"
 		"post-img-2 post-img-2"
@@ -19,7 +19,7 @@
 }
 
 @media (min-width: 600px) {
-	#grid-container {
+	#magic-grid-container {
 		height: 100vh;
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -33,7 +33,7 @@
 	}
 }
 @media (min-width: 1025px) {
-	#grid-container {
+	#magic-grid-container {
 		height: 150vh;
 		display: grid;
 		grid-template-columns: 1fr 1fr;

@@ -1,5 +1,5 @@
 nav {
-	grid-area: nav;
+	grid-area: navbar;
 	z-index: 6000;
 	background: #bbb3b3 !important;
 	box-shadow: 0 1px 20px 0 rgba(46, 61, 73, 0.2);
@@ -11,7 +11,7 @@ nav {
     padding: 5px !important; 
 }
 
-#nav-flex-logo {
+#trick-nav-flex-logo {
 	display: flex;
 	font-family: "Lucida" Grande, sans-serif;
 	font-size: 1.5em;
@@ -22,7 +22,7 @@ nav {
 	align-items: center;
 }
 
-#logo {
+#trick-logo {
 	font-size: 1.2em;
 	text-align: center;
 	font-weight: 700;
@@ -31,7 +31,7 @@ nav {
     width: 100% !important;
 }
 
-#nav-ul {
+#trick-nav-ul {
 	display: flex;
 	flex-flow: row wrap;
 	width: 100%;
@@ -50,31 +50,31 @@ li {
 	padding: 0 5px;
 }
 
-.nav-item {
+.trick-nav-item {
 	list-style-type: none;
 	margin: 5px;
 }
 
-.nav-item > a {
+.trick-nav-item > a {
 	color: #b44a4a;
 	font-weight: 700;
 	padding: 8px 20px;
 	border-radius: 2px;
 }
 
-.nav-item > a:hover {
+.trick-nav-item > a:hover {
 	color: #ffffff !important;
 	background-color: #b44a4a;
 	border: 1px solid #b44a4a;
 }
 
-.nav-item > a:active {
+.trick-nav-item > a:active {
 	color: #ffffff !important;
 	background-color: #b44a4a;
 	border: 1px solid #b44a4a;
 }
 
-.nav-item > a:visited {
+.trick-nav-item > a:visited {
 	color: #b44a4a;
 }
 
@@ -83,7 +83,7 @@ li {
 		height: 60px;
 	}
 
-	#nav-flex-logo {
+	#trick-nav-flex-logo {
 		display: flex;
 		flex-flow: row wrap;
 		width: 40%;
@@ -91,14 +91,14 @@ li {
 		align-items: center;
 	}
 
-	#logo {
+	#trick-logo {
 		font-size: 1.2em;
 		text-align: center;
 		margin-left: 0;
 		font-weight: 600;
 	}
 
-	#nav-ul {
+	#trick-nav-ul {
 		display: flex;
 		flex-flow: row wrap;
 		width: 80%;
