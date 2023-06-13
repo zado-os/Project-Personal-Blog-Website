@@ -62,15 +62,7 @@
 	align-items: center;
 	color: #fffaf0;
 }
-#post-img-2 {
-	grid-area: post-img-2;
-	background-image: url("https://cdn.bhdw.net/im/coven-champions-league-of-legends-lol-wallpaper-78811_w635.webp");
-	background-position: center;
-	background-size: cover;
-	background-repeat: no-repeat;
-	margin-top: 50%;
-	padding: 0;
-}
+
 
 .post {
 	display: flex;
