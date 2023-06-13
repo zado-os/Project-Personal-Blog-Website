@@ -56,7 +56,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 5% 0% 0% 30%;
+	margin: 3% 0% 0% 30%;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: center;
@@ -80,7 +80,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 0;
+	margin: 3% 0% 0% 0%;
 	padding: 0;
 	align-items: center;
 }
