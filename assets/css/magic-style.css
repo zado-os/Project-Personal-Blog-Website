@@ -52,7 +52,7 @@
 	grid-area: post-img;
 	width: 100%;
 	height: 100%;
-	background-image: url("../images/post-1.jpg");
+	background-image: url("https://cdn.bhdw.net/im/coven-champion-girls-league-of-legends-lol-wallpaper-94205_w635.webp");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -74,7 +74,7 @@
 
 #post-blog-1 {
 	grid-area: post-blog-1;
-	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	background-image: url("../images/post-1.jpg");
 	width: 100%;
 	height: 100%;
 	background-position: center;
