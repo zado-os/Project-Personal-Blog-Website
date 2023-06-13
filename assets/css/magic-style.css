@@ -1,7 +1,7 @@
 /* imports CSS Files */
 @import "magic-navbar.css";
 @import "magic-layout.css";
-@import "magic-layout.css";
+@import "magic-footer.css";
 
 /* Grid Container */
 #magic-grid-container {
