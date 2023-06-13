@@ -86,22 +86,31 @@
 
 #post-blog-2 {
 	grid-area: post-blog-2;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+	background-image: url("https://cdn.bhdw.net/im/coven-champion-girls-league-of-legends-lol-wallpaper-94205_w635.webp");
+	width: 70%;
+	height: 100%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 0;
+	margin: 3% 0% 0% 0%;
 	padding: 0;
+	align-items: center;
 }
 
 #post-img-2 {
 	grid-area: post-img-2;
-	background-image: url("../images/post-2.jpg");
+	width: 71%;
+	height: 100%;
+	background-image: url("https://cdn.bhdw.net/im/coven-champions-league-of-legends-lol-wallpaper-78811_w635.webp");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin: 0;
-	padding: 0;
+	margin: 3% 0% 0% 30%;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	color: #fffaf0;
 }
 /* tile styling */
 
