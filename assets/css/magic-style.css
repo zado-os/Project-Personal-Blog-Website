@@ -6,25 +6,35 @@
 /* Grid Container */
 #magic-grid-container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 100px 300px 400px 300px 350px 60px;
+  grid-template-columns: 1fr ;
+  grid-template-rows: auto;
   gap: 6px;
   grid-template-areas:
+    "navbar"
+    "poster-blog-2"
+    "poster-blog-1"
+    "poster-blog-3"
+    "ft";
+}
+
+@media (min-width: 600px) {
+  #magic-grid-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
     "navbar navbar"
     "poster-blog-2 poster-blog-2"
     "poster-blog-1 poster-blog-1"
     "poster-blog-3 poster-blog-3"
     "pots-3 poster-blog-2"
     "ft ft";
+  }
 }
 
-@media (min-width: 600px) {
+@media (min-width: 1025px) {
   #magic-grid-container {
-    height: 100vh;
-    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 50px auto auto 100px;
-    gap: 10px;
+    grid-template-rows: auto;
     grid-template-areas:
       "navbar navbar"
       "poster-blog-2 poster-blog-1"
@@ -33,18 +43,28 @@
   }
 }
 
-@media (min-width: 1025px) {
-  #magic-grid-container {
-    height: 150vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 58px auto auto 100px;
-    gap: 10px;
-    grid-template-areas:
-      "navbar navbar"
-      "poster-blog-2 poster-blog-1"
-      "poster-blog-3 poster-blog-3"
-      "ft ft";
+/* tile styling */
+.text-detils {
+  min-width: 80%;
+  max-width: 500px;
+  padding: 10px 20px;
+  margin: 20px auto;
+  text-align: center;
+  border-radius: 2px;
+}
+
+@media (min-width: 600px) and (max-width: 1200px) {
+  .post h4 {
+    font-size: 1.5em;
+  }
+
+  .post .post-detils {
+    font-size: 0.8em;
+  }
+
+  .text-detils {
+    padding: 5px 15px;
+    margin: 5px auto;
   }
 }
 
@@ -58,7 +78,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 3% 0% 0% 30%;
+  margin: 3% 0% 0% 15%;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -100,7 +120,10 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: 3% 0% 0% 0%;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin: 3% 0% 0% 15%;
   padding: 0;
   align-items: center;
   border-radius: 2%;
@@ -146,17 +169,10 @@
   text-align: center;
 }
 
-@media (min-width: 600px) and (max-width: 1200px) {
-  .post h4 {
-    font-size: 1.5em;
-  }
-
-  .post .post-detils {
-    font-size: 0.8em;
-  }
-
-  .text-detils {
-    padding: 5px 15px;
-    margin: 5px;
-  }
+h1, h2, h3 {
+  font-family: Oswald, sans-serif;
+  color: #ffd900d3;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+
+
